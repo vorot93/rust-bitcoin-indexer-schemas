@@ -1,0 +1,8 @@
+[package]
+name = "rust-bitcoin-indexer-schemas"
+version = "0.1.0"
+authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1", default-features = false, features = ["32-column-tables", "postgres"] }
